@@ -1,0 +1,12 @@
+h1  {
+  text-align: center;
+  font: Garamond;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+h1.fade-out{
+ opacity: 0;
+ transition: none;
+}
