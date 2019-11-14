@@ -10,3 +10,8 @@ h1.fade-out{
  opacity: 0;
  transition: none;
 }
+
+.jumbotron{
+   background-image: url("./images/homepage-jumbotron-temp.png");
+   background-size: cover;
+}
