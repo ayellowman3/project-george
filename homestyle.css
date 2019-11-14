@@ -4,6 +4,12 @@ h1  {
   font-size: 40px;
   opacity: 1;
   transition: 1s opacity;
+  color: white;
+  background-color: black;
+  width: auto;
+}
+.title-box{
+  width: auto;
 }
 
 h1.fade-out{
