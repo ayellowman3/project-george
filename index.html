@@ -10,31 +10,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link rel="shortcut icon" type="image/png" href="./images/g-favicon.png" />
 </head>
 
 
 <body>
   <div id="header"></div>
-  <nav class="navbar navbar-expand bg-dark navbar-dark">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item"><a class="nav-link" href="professional.html">Professional</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="project.html">Project</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="life.html">Life</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-
-    </ul>
-  </nav>
+  <div id="nav-placeholder"></div>
+  <script>
+  $(function(){
+      $("nav-placeholder").load("nav.html");
+  });
+  </script>
 
   <div class="jumbotron text-center" style="height: 100vh">
     <div id="title-box" class="hide">
