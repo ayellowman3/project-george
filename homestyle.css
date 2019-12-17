@@ -21,3 +21,7 @@ h1.fade-out{
    background-image: url("./images/homepage-jumbotron-temp.jpg");
    background-size: cover;
 }
+
+.foot{
+    background-color: grey;
+}
