@@ -13,14 +13,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
-        $(function() {
+        function loadHead() {
             $("#head").load("/asset/head.html");
-        })();
+        }
     </script>
 </head>
 
 
 <body>
+    <script type="text/javascript">
+        loadHead();
+    </script>
     <div id="nav-placeholder"></div>
     <script>
         $(function() {
