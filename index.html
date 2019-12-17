@@ -2,7 +2,7 @@
 <html lang="en">
 <title>project-george</title>
 
-<head>
+<head id="head">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="homestyle.css">
@@ -11,13 +11,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/b6d948a6bd.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" type="image/png" href="./images/g-favicon.png" />
+
+    <script>
+        $(function() {
+            $("#head").load("/asset/head.html")
+        })();
+    </script>
 </head>
 
 
 <body>
-    <div id="header"></div>
     <div id="nav-placeholder"></div>
     <script>
         $(function() {
