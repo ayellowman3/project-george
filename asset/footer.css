@@ -82,8 +82,14 @@ footer .segment-four h2{
     text-transform: uppercase;
 }
 
-footer .segment-four h2:before{
+footer .segment-four h4:before{
     content: '|';
     color: #c65039;
     padding-right: 10px;
+}
+
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
 }
