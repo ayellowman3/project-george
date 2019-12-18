@@ -49,3 +49,41 @@ footer .segment-two ul li a{
     color: #999;
     text-decoration: none;
 }
+
+footer .segment-three h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppdercase;
+}
+
+footer .segment-three h4:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+footer .segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+footer .segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+footer .segment-four h2{
+    color: #fff;
+    font-family:Poppins;
+    text-transform: uppercase;
+}
+
+footer .segment-four h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
