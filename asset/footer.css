@@ -50,10 +50,10 @@ footer .segment-two ul li a{
     text-decoration: none;
 }
 
-footer .segment-three h2{
+footer .segment-three h4{
     color: #fff;
-    font-family: Poppins;
-    text-transform: uppdercase;
+    font-family:Poppins;
+    text-transform: uppercase;
 }
 
 footer .segment-three h4:before{
