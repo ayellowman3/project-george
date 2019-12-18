@@ -42,7 +42,7 @@ footer .segment-two ul{
 
 footer .segment-two ul li{
     border-bottom: 1px solid rgba(255,255,255,0.3);
-    lint-height: 40px;
+    line-height: 40px;
 }
 
 footer .segment-two ul li a{
