@@ -22,6 +22,6 @@ h1.fade-out{
    background-size: cover;
 }
 
-.foot{
-    background-color: grey;
+#copyright{
+    background-color:rgb(120, 120, 120);
 }
