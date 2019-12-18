@@ -3,8 +3,17 @@
 <title>project-george-professional</title>
 
 <head id="head">
-    <link rel="shortcut icon" type="image/png" href="images/g-favicon.png" />
-    <link rel="import" href="asset/head.html">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="asset/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b6d948a6bd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="images/g-favicon.png">
 </head>
 
 
@@ -21,15 +30,13 @@
     <div class="container-fluid">
 
     </div>
+    <footer id="footer">
+        <script>
+            $(function() {
+                $("#footer").load("/asset/footer.html");
+            })();
+        </script>
+    </footer>
 </body>
-<footer>
-    <div id="foot"></div>
-    <script>
-        $(function() {
-            $("#foot").load("/asset/footer.html");
-        })();
-    </script>
-
-</footer>
 
 </html>
