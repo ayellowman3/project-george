@@ -22,22 +22,22 @@
                     </div>
 
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                            <script>
-                                $.ajax({
-                                    url: "sudoku_result.csv",
-                                    async: false,
-                                    success: function(csvd) {
-                                        data = $.csv.toArrays(csvd);
-                                    },
-                                    dataType: "text",
-                                    complete: function() {
-                                        // call a function on complete
-                                    }
-                                });
-                                $("#collapseOne").val(data.toString());
-                            </script>
+                        <div class="card-body" id="sudoku_result">
                         </div>
+                        <script>
+                            $.ajax({
+                                url: "sudoku_result.csv",
+                                async: false,
+                                success: function(csvd) {
+                                    data = $.csv.toArrays(csvd);
+                                },
+                                dataType: "text",
+                                complete: function() {
+                                    // call a function on complete
+                                }
+                            });
+                            $("#sudoku_result").val(data.toString());
+                        </script>
                     </div>
                 </div>
             </div>
