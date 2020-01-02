@@ -25,3 +25,9 @@ h1.fade-out{
 #footer{
     padding-bottom: 0px;
 }
+
+.github{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
