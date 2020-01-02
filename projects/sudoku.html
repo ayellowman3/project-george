@@ -22,13 +22,13 @@
                     </div>
 
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body" id="sudoku_result">
-
+                        <div class="card-body" id="sudoku_result" onload="sudokuResults()">
                         </div>
                         <script>
-                            var data = $.csv.toObjects('sudoku_result.csv');
-
-                            document.getElementById("#sudoku_result").innterHTML = "data.toString()";
+                            function sudokuResults() {
+                                var data = $.csv.toObjects('sudoku_result.csv');
+                                document.getElementById("sudoku_result").innterHTML = data.toString();
+                            }
                         </script>
                     </div>
                 </div>
