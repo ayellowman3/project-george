@@ -23,6 +23,7 @@
 
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body" id="sudoku_result">
+                            hi
                         </div>
                         <script>
                             $.ajax({
@@ -36,7 +37,7 @@
                                     // call a function on complete
                                 }
                             });
-                            $("#sudoku_result").val(data.toString());
+                            document.getElementById("#sudoku_result").innterHTML = data.toString();
                         </script>
                     </div>
                 </div>
