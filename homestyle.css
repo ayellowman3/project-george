@@ -26,8 +26,15 @@ h1.fade-out{
     padding-bottom: 0px;
 }
 
-.github{
+.github a i{
     font-size: 20px;
     color: #fff;
     padding: 10px 12px;
+}
+.github a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
 }
