@@ -26,17 +26,8 @@
                             hi
                         </div>
                         <script>
-                            $.ajax({
-                                url: "sudoku_result.csv",
-                                async: false,
-                                success: function(csvd) {
-                                    data = $.csv.toArrays(csvd);
-                                },
-                                dataType: "text",
-                                complete: function() {
-                                    // call a function on complete
-                                }
-                            });
+                            var data = $.csv.toObjects('sudoku_result.csv');
+
                             document.getElementById("#sudoku_result").innterHTML = data.toString();
                         </script>
                     </div>
