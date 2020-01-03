@@ -15,7 +15,7 @@
                 <div class="card pt-3">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" onclick="sudokuResults()">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 Results
                             </button>
                         </h5>
@@ -25,6 +25,10 @@
                         <div class="card-body" id="sudoku_result">
                         </div>
                         <script>
+                            document.getElementById("sudoku_result").onload = function() {
+                                sudokuResults()
+                            };
+
                             function sudokuResults() {
                                 var data = $.csv.toObjects('sudoku_result.csv');
                                 var text = "test";
