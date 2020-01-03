@@ -77,7 +77,7 @@
                             for (var i = 0; i < results.length; i++) {
                                 text += results[i][0] + "<br>";
                                 var width = results[i][1] / 200000;
-                                text += '<div class="progress"><div class="progress-bar bg-success" role="progressbar" style="width: ' + width + '%" aria-valuenow="' + results[i][1] + '" aria-valuemin="0" aria-valuemax="200000"></div></div>';
+                                text += '<div class="progress"><div class="progress-bar bg-success" role="progressbar" style="width: ' + width + '%" aria-valuenow="' + results[i][1] + '" aria-valuemin="0" aria-valuemax="100"></div></div>';
                             }
                             document.getElementById("sudoku_result").innerHTML = text;
                         </script>
