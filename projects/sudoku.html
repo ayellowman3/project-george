@@ -27,7 +27,10 @@
                         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                         <script>
                             var text = "hi";
-                            var cars = ["car"]
+                            var cars = ["car", "car2", "car3"];
+                            for (var i = 0; i < cars.length; i++) {
+                                text += cars[i]
+                            }
                             document.getElementById("sudoku_result").innerHTML = text + cars[0];
                         </script>
                         <script>
