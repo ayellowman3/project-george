@@ -27,16 +27,13 @@
                         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
                         <script>
-                            document.getElementById("#sudoku_result").onload = function() {
-                                sudokuResults()
-                            };
-
                             function sudokuResults() {
                                 var data = $.csv.toObjects('sudoku_result.csv');
                                 var text = "test";
-                                document.getElementById("#sudoku_result").innerHTML = "text";
-                                document.getElementById("sudoku_result").innerHTML = "text";
+                                return text
                             }
+                            document.getElementById("#sudoku_result").innerHTML = sudokuResults();
+                            document.getElementById("sudoku_result").innerHTML = sudokuResults();
                         </script>
                     </div>
                 </div>
