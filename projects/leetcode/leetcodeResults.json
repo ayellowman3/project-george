@@ -1,1 +1,31 @@
-{"solvedProblems": [{"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/1342_number-of-steps-to-reduce-a-number-to-zero.py", "frontend_question_id": 1342, "question__title": "Number of Steps to Reduce a Number to Zero"}, {"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/1108_defanging-an-ip-address.py", "frontend_question_id": 1108, "question__title": "Defanging an IP Address"}, {"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/258_add-digits.py", "frontend_question_id": 258, "question__title": "Add Digits"}, {"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/175_combine-two-tables.py", "frontend_question_id": 175, "question__title": "Combine Two Tables"}, {"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/65_valid-number.py", "frontend_question_id": 65, "question__title": "Valid Number"}, {"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/1_two-sum.py", "frontend_question_id": 1, "question__title": "Two Sum"}], "medium": 0, "hard": 1, "easy": 5, "numSolved": 6}
+{
+	"numSolved": 6,
+	"easy": 5,
+	"medium": 0,
+	"hard": 1,
+	"solvedProblems": [{
+		"frontend_question_id": 1342,
+		"question__title": "Number of Steps to Reduce a Number to Zero",
+		"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/1342_number-of-steps-to-reduce-a-number-to-zero.py"
+	}, {
+		"frontend_question_id": 1108,
+		"question__title": "Defanging an IP Address",
+		"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/1108_defanging-an-ip-address.py"
+	}, {
+		"frontend_question_id": 258,
+		"question__title": "Add Digits",
+		"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/258_add-digits.py"
+	}, {
+		"frontend_question_id": 175,
+		"question__title": "Combine Two Tables",
+		"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/175_combine-two-tables.py"
+	}, {
+		"frontend_question_id": 65,
+		"question__title": "Valid Number",
+		"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/65_valid-number.py"
+	}, {
+		"frontend_question_id": 1,
+		"question__title": "Two Sum",
+		"url": "https://github.com/ayellowman3/project-george/blob/master/projects/leetcode/problems/1_two-sum.py"
+	}]
+}

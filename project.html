@@ -33,6 +33,16 @@
             $("#sudoku").load("/projects/sudoku.html");
         })();
     </script>
+    <div id="leetcode"></div>
+    <script>
+        leetCodeResults = {
+            localStorage.getTime("/projects/leetcode/leetcodeResults.json")
+        }
+        obj = JSON.parse(leetCodeResults)
+        $(function() {
+            $("#leetcode").load("/projects/leetcode.html");
+        })();
+    </script>
     <footer id="footer">
         <script>
             $(function() {
